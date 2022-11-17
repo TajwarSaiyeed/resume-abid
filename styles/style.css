@@ -6,7 +6,7 @@
 }
 
 body {
-    background: lightblue;
+    background: #e9e9e9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,9 @@ body {
 
 .container .left-side {
     position: relative;
-    background: #003147;
+    /* background: #9b9b9b; */
+    background: #fff;
+    color: #000;
     padding: 40px;
 }
 
@@ -47,6 +49,7 @@ body {
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .profileText .imgBx img {
@@ -59,7 +62,7 @@ body {
 }
 
 .profileText h2 {
-    color: #fff;
+    /* color: #fff; */
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -78,7 +81,7 @@ body {
 }
 
 .title {
-    color: #fff;
+    /* color: #fff; */
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -100,11 +103,11 @@ body {
     display: inline-block;
     width: 20px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #000000;
 }
 
 .contactInfo ul li .text {
-    color: #fff;
+    /* color: #fff; */
     font-weight: 300;
 }
 
@@ -113,17 +116,17 @@ body {
 }
 
 .contactInfo.education h5 {
-    color: #03a9f4;
+    /* color: #03a9f4; */
     font-weight: 500;
 }
 
 .contactInfo.education h4:nth-child(2) {
-    color: #fff;
+    /* color: #fff; */
     font-weight: 600;
 }
 
 .contactInfo.education h4 {
-    color: #fff;
+    /* color: #fff; */
     font-weight: 300;
 }
 
@@ -131,7 +134,7 @@ body {
     position: relative;
     width: 100%;
     height: 10px;
-    background: #081921;
+    background: #adadad;
     display: block;
     margin-top: 5px;
 }
@@ -141,7 +144,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #000000;
 }
 
 .container .right-side {
@@ -203,15 +206,16 @@ p {
 
 .skills .box h4 {
     text-transform: uppercase;
-    color: #848c99;
-    font-weight: 500;
+    color: #030303;
+    font-weight: 700;
+
 }
 
 .skills .box .percent {
     position: relative;
     width: 100%;
     height: 10px;
-    background: #081921;
+    background: #999999;
     display: block;
     margin-top: 5px;
 }
@@ -221,7 +225,7 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #000000;
 }
 
 .interest ul {
@@ -237,7 +241,7 @@ p {
 }
 
 .interest ul li .fa {
-    color: #03a9f4;
+    color: #000000;
     font-size: 18px;
     width: 20px;
 }
